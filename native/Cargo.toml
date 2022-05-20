@@ -1,0 +1,17 @@
+[package]
+name = "q-compress-jni-native"
+version = "0.0.0"
+authors = ["mwlon <m.w.loncaric@gmail.com>"]
+edition = "2018"
+include = ["src"]
+
+[dependencies]
+jni = "0.19"
+q_compress = "0.9.3"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+codegen-units = 1

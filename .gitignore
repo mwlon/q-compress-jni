@@ -1,0 +1,7 @@
+target
+native/target
+.idea
+*.iml
+Cargo.lock
+src/main/resources/native
+src/test/java/com/pancakedb/qcompress/SpeedTest.java
