@@ -4,4 +4,4 @@ native/target
 *.iml
 Cargo.lock
 src/main/resources/native
-src/test/java/com/pancakedb/qcompress/SpeedTest.java
+src/test/java/com/github/mwlon/qcompress/SpeedTest.java

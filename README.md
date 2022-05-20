@@ -3,11 +3,13 @@
 Example:
 
 ```java
+import com.github.mwlon.qcompress.QCompress;
+
 class Main {
   public static void main(String[] args) {
     int[] orig = {1, 2, 3, 4, 5};
-    byte[] compressed = Native.autoCompressInts(orig, 6);
-    int[] recovered = Native.autoDecompressInts(compressed);
+    byte[] compressed = QCompress.autoCompressInts(orig, 6);
+    int[] recovered = QCompress.autoDecompressInts(compressed);
     System.out.println(String.join(", ", recovered));
     // prints 1, 2, 3, 4, 5
   }

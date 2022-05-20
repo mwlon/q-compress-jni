@@ -30,7 +30,7 @@ fn auto_compress<T>(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressBooleans(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoDecompressBooleans(
   env: JNIEnv,
   _: JClass,
   data: jbyteArray,
@@ -52,7 +52,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressBoolean
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressInts(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoDecompressInts(
   env: JNIEnv,
   _: JClass,
   data: jbyteArray,
@@ -71,7 +71,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressInts(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressLongs(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoDecompressLongs(
   env: JNIEnv,
   _: JClass,
   data: jbyteArray,
@@ -90,7 +90,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressLongs(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressFloats(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoDecompressFloats(
   env: JNIEnv,
   _: JClass,
   data: jbyteArray,
@@ -109,7 +109,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressFloats(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressDoubles(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoDecompressDoubles(
   env: JNIEnv,
   _: JClass,
   data: jbyteArray,
@@ -128,7 +128,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoDecompressDoubles
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressBooleans(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoCompressBooleans(
   env: JNIEnv,
   _: JClass,
   nums: jbooleanArray,
@@ -146,7 +146,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressBooleans(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressInts(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoCompressInts(
   env: JNIEnv,
   _: JClass,
   nums: jintArray,
@@ -161,7 +161,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressInts(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressLongs(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoCompressLongs(
   env: JNIEnv,
   _: JClass,
   nums: jlongArray,
@@ -176,7 +176,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressLongs(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressFloats(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoCompressFloats(
   env: JNIEnv,
   _: JClass,
   nums: jfloatArray,
@@ -191,7 +191,7 @@ pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressFloats(
 }
 
 #[no_mangle]
-pub extern "system" fn Java_com_pancakedb_qcompress_Native_autoCompressDoubles(
+pub extern "system" fn Java_com_github_mwlon_qcompress_QCompress_autoCompressDoubles(
   env: JNIEnv,
   _: JClass,
   nums: jdoubleArray,

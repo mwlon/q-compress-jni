@@ -3,19 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pancakedb</groupId>
+    <groupId>com.github.mwlon</groupId>
     <artifactId>q-compress-jni</artifactId>
     <packaging>jar</packaging>
     <version>0.0.0_0.9.3</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
-
+        JVM bindings for Quantile Compression
     </description>
-    <organization>
-        <name>PancakeDB</name>
-        <url>https://pancakedb.com</url>
-    </organization>
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -23,16 +19,14 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/pancake-db/q-compress-jni.git</connection>
-        <developerConnection>scm:git:ssh://github.com:pancake-db/q-compress-jni.git</developerConnection>
-        <url>http://github.com/pancake-db/q-compress-jni</url>
+        <connection>scm:git:git://github.com/mwlon/q-compress-jni.git</connection>
+        <developerConnection>scm:git:ssh://github.com:mwlon/q-compress-jni.git</developerConnection>
+        <url>http://github.com/mwlon/q-compress-jni</url>
     </scm>
     <developers>
         <developer>
             <name>Martin Loncaric</name>
-            <email>martin@pancakedb.com</email>
-            <organization>PancakeDB</organization>
-            <organizationUrl>pancakedb.com</organizationUrl>
+            <email>m.w.loncaric@gmail.com</email>
         </developer>
     </developers>
 

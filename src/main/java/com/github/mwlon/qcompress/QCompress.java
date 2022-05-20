@@ -1,11 +1,11 @@
-package com.pancakedb.qcompress;
+package com.github.mwlon.qcompress;
 
 import java.io.File;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Native {
+public class QCompress {
   private static String getArchitectureName() {
     return System.getProperty("os.arch");
   }
@@ -46,7 +46,7 @@ public class Native {
           getOsName() +
           "/libq_compress_jni_native." +
           getLibExtension();
-      InputStream in = Native.class.getClassLoader().getResourceAsStream(resourceName);
+      InputStream in = QCompress.class.getClassLoader().getResourceAsStream(resourceName);
       if (in == null) {
         throw new RuntimeException(
             "q_compress native library " + resourceName + " not available for your architecture"
