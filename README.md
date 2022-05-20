@@ -1,9 +1,9 @@
-# Quantile Compression JVM Bindings
+# [Quantile Compression](https://github.com/mwlon/quantile-compression) JVM Bindings
 
 Example:
 
 ```java
-import com.github.mwlon.qcompress.QCompress;
+import io.github.mwlon.qcompress.QCompress;
 
 class Main {
   public static void main(String[] args) {
@@ -17,7 +17,7 @@ class Main {
 ```
 
 This library binds to the Rust code for
-[q_compress](https://github.com/mwlon/quantile-compression).
+[q_compress](https://github.com/mwlon/quantile-compression/tree/main/q_compress).
 It currently supports the following OS/architectures pairs, with more
 to come in the future:
 * x86_64-darwin (Mac)

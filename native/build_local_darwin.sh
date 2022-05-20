@@ -1,2 +1,13 @@
-cargo build --release && \
-  cp target/release/libq_compress_jni_native.dylib ../src/main/resources/native/x86_64-darwin/libq_compress_jni_native.dylib
+# Run from the native/ directory.
+
+set -e
+
+TARGET_NAME="x86_64-apple-darwin"
+RESOURCES_DIR="../src/main/resources/native/x86_64-darwin/"
+
+echo "BUILDING FOR $TARGET_NAME..."
+cargo build --release --target "$TARGET_NAME"
+
+echo "MOVING BINARY TO $RESOURCES_DIR"
+mkdir -p "$RESOURCES_DIR"
+mv "target/$TARGET_NAME/release/libq_compress_jni_native.dylib" "$RESOURCES_DIR" || echo "(ignoring mv failure)"

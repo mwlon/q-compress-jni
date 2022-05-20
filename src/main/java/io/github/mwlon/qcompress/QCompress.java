@@ -1,4 +1,4 @@
-package com.github.mwlon.qcompress;
+package io.github.mwlon.qcompress;
 
 import java.io.File;
 import java.io.InputStream;

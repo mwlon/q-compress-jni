@@ -1,4 +1,4 @@
-package com.github.mwlon.qcompress;
+package io.github.mwlon.qcompress;
 
 import org.junit.Assert;
 import org.junit.Test;
