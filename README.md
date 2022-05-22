@@ -1,3 +1,9 @@
+[![Maven Central][maven-badge]][maven-url]
+
+[maven-badge]: https://maven-badges.herokuapp.com/maven-central/io.github.mwlon/q-compress-jni/badge.svg?gav=true
+[maven-url]: https://search.maven.org/artifact/io.github.mwlon/q-compress-jni
+
+
 # [Quantile Compression](https://github.com/mwlon/quantile-compression) JVM Bindings
 
 Example:
