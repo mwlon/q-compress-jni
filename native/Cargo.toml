@@ -7,7 +7,7 @@ include = ["src"]
 
 [dependencies]
 jni = "0.19"
-q_compress = "0.9.3"
+q_compress = "0.10.0"
 
 [lib]
 crate-type = ["cdylib"]

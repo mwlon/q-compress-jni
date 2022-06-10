@@ -3,7 +3,6 @@
 [maven-badge]: https://maven-badges.herokuapp.com/maven-central/io.github.mwlon/q-compress-jni/badge.svg?gav=true
 [maven-url]: https://search.maven.org/artifact/io.github.mwlon/q-compress-jni
 
-
 # [Quantile Compression](https://github.com/mwlon/quantile-compression) JVM Bindings
 
 Example:
@@ -13,8 +12,8 @@ import io.github.mwlon.qcompress.QCompress;
 
 class Main {
   public static void main(String[] args) {
-    int[] orig = {1, 2, 3, 4, 5};
-    byte[] compressed = QCompress.autoCompressInts(orig, 6);
+    int[] nums = {1, 2, 3, 4, 5};
+    byte[] compressed = QCompress.autoCompressInts(nums, 6);
     int[] recovered = QCompress.autoDecompressInts(compressed);
     System.out.println(String.join(", ", recovered));
     // prints 1, 2, 3, 4, 5
