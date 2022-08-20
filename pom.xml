@@ -6,7 +6,7 @@
     <groupId>io.github.mwlon</groupId>
     <artifactId>q-compress-jni</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.0_0.10.2</version>
+    <version>0.0.0_0.11.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
